@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" filepath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" filepath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/cloud-stream-rabbitmq-provider8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-springcloud-config3344/config-springcloud-config3344.iml" filepath="$PROJECT_DIR$/config-springcloud-config3344/config-springcloud-config3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-springcloud-configclient3355/config-springcloud-configclient3355.iml" filepath="$PROJECT_DIR$/config-springcloud-configclient3355/config-springcloud-configclient3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" filepath="$PROJECT_DIR$/sharding-jdbc/sharding-jdbc.iml" />
+    </modules>
+  </component>
+</project>

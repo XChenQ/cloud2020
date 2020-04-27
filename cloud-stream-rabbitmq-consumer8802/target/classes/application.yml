@@ -1,0 +1,36 @@
+server:
+  port: 8802
+
+
+spring:
+  application:
+    name: cloud-stream-consumer
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:   #定义的名称，用于binding整合
+          type: rabbit   #消息中间件的类型
+          environment:   #设置rabbitmq相关配置
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:  #服务的整合
+        cheninput:                            #这是名字是一个通道的名称
+          destination: studyExchange         #要使用的exchange的名称定义
+          content-type: application/json     #设置消息类型
+          binder: defaultRabbit
+          group: mygroupA #设置要绑定的消息服务的具体设置
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    service-url:                 #与eureka server交互的地址
+#      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka #,http://eureka7002.com:7002/eureka
+  instance:
+      instance-id: reveice-8801
+      prefer-ip-address: true  #访问路径可以显示IP地址
